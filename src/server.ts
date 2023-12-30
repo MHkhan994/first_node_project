@@ -10,7 +10,6 @@ async function main() {
       console.log(`Example app listening on port ${config.port}`);
     });
   } catch (err) {
-    console.log(config.database_url);
     console.log(err);
   }
 }
